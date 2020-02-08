@@ -1,7 +1,9 @@
-.PHONY: deploy
+.PHONY: deploy run
+
+PROJECT_ID := $$(gcloud config list --format='value(core.project)')
 
 run:
-	@go run main.go
+	@PROJECT_ID=$(PROJECT_ID) go run main.go
 
 deploy:
 	@gcloud app deploy
