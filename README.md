@@ -1,5 +1,5 @@
 # Scalable Crawler
-CloudNative scalable crawlers built on Google Cloud Platform
+CloudNative scalable crawler built on Google Cloud Platform
 
 ![architecture](docs/architecture.jpeg)
 
