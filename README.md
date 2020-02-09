@@ -1,3 +1,3 @@
 # Scalable Crawler
 
-![architecture](docs/architecture.png)
+![architecture](docs/architecture.jpeg)
